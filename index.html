@@ -1,20 +1,41 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>JS | Event Handling</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+     <head>
+       <title>Event Handling To Do List</title>
+       <link rel="stylesheet.css" href="style.css"/>
+     </head>
+
   <body>
-    <div id="wrapper">
-      <h1 id="header">THINGS TO DO</h1>
+
+    <div id="head">
+      <h1 id="header">MY THINGS TO DO</h1>
+    </div>
+      
+    <div id="box1">  
       <ul>
         <li id="one">Sleep</li>
         <li id="two">Eat</li>
         <li id="three">Code</li>
         <li id="four">Breath</li>
       </ul>
-      
+    </div>
+
+
+    <div id="box2">
+        <form id="newItemForm">
+           <input type="text" id=" itemDescription" placeholder="AddAnother" />
+           <input type="submit" id="add" value="add item" />
+        </form>   
+
+
+
+
+    </div> 
+
+
+
+
       <form id="newItemForm">
         <input type="text" id="itemDescription" placeholder="Add description" />
         <input type="submit" id="add" value="add" />
